@@ -22,8 +22,8 @@
         <Authors>S.T.A.R.T.S.E.V.</Authors>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <RepositoryType>git</RepositoryType>
-        <RepositoryUrl>https://github.com/STARTS-EV/PasswordHasher</RepositoryUrl>
-        <PackageProjectUrl>https://github.com/STARTS-EV/PasswordHasher</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/startsevIT/PasswordHasher</RepositoryUrl>
+        <PackageProjectUrl>https://github.com/startsevIT/PasswordHasher</PackageProjectUrl>
     </PropertyGroup>
     
     <PropertyGroup Condition="'$(IsPackable)' != 'false'">
