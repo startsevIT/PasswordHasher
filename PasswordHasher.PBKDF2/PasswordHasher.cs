@@ -236,7 +236,7 @@ public sealed class PasswordHasher : IMigratingPasswordHasher
             throw new ArgumentException(
                 $"Unsupported hash algorithm: {options.Algorithm}. " +
                 $"Supported: {string.Join(", ", SupportedAlgorithms)}.",
-                nameof(options.Algorithm));
+                nameof(options));
 
         if (options.SaltSize < 8)
             throw new ArgumentException("SaltSize must be at least 8 bytes.", nameof(options));
